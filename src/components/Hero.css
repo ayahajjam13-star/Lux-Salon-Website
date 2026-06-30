@@ -97,6 +97,12 @@
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 40px 80px rgba(26, 20, 18, 0.1);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.hero-image img:hover {
+  transform: scale(1.04);
 }
 
 .hero-floating-card {
