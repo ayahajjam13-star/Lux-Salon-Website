@@ -1,0 +1,70 @@
+/* Footer.css */
+.footer {
+  background: var(--black);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 60px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-grid h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.footer-grid h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-grid p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--gold);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+  }
+  .social-links {
+    justify-content: center;
+  }
+}

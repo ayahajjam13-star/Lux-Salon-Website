@@ -1,0 +1,73 @@
+/* WhyUs.css */
+.why-us {
+  background: var(--beige);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.why-content p {
+  font-size: 1.1rem;
+  color: var(--gray);
+  max-width: 440px;
+  margin: 20px 0 32px;
+  line-height: 1.7;
+}
+
+.why-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.why-card {
+  background: var(--white);
+  padding: 28px 24px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.why-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 12px 30px rgba(26, 20, 18, 0.04);
+}
+
+.why-card span {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.why-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.why-card p {
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .why-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .why-cards {
+    grid-template-columns: 1fr;
+  }
+}
