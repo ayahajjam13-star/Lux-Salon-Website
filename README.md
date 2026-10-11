@@ -1,16 +1,85 @@
-# React + Vite
+# Luxé Salon ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Salon de beauté de luxe à Al Hoceima, Maroc. Site web élégant avec design raffiné et expérience utilisateur premium.
 
-Currently, two official plugins are available:
+![Uploading image.jpeg…]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 🔗 Demo Live
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 **[Voir le site en ligne](https://lux-salon-website-eu9q.vercel.app)**
 
-## Expanding the Oxlint configuration
+## 🛠 Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+- Déployé sur Vercel
+
+## ✨ Fonctionnalités
+
+- 💎 Hero section "Where Beauty Meets Art"
+- 📊 Statistiques (10+ ans, 5k+ clients, 50+ stylistes)
+- 💅 Section Services Signature :
+  - Lissage & Brushing
+  - Soin Capillaire
+  - Coloration Professionnelle
+  - Coupe Femme
+- 👑 Section "Why Choose Us" (Award-Winning, Clean Products, Personalized, Luxury)
+- 🖼️ Galerie Before & After (transformations)
+- ⭐ Témoignages clients (carrousel)
+- 📞 Section réservation & contact
+- 📱 100% responsive (mobile / tablette / desktop)
+
+## 🎨 Design
+
+- Palette rose poudré & doré élégante
+- Typographie raffinée
+- Animations fluides
+- Ambiance luxueuse et apaisante
+
+## 📸 Aperçu
+
+![Screenshot du site](./screenshot.png)
+
+## 📂 Structure du projet
+
+\`\`\`
+Lux-Salon-Website/
+├── index.html
+├── style.css
+├── script.js
+└── images/
+\`\`\`
+
+## 🚀 Installation locale
+
+\`\`\`bash
+# Cloner le projet
+git clone https://github.com/ayahajjam13-star/Lux-Salon-Website.git
+
+# Entrer dans le dossier
+cd Lux-Salon-Website
+
+# Ouvrir le site
+# Double-cliquez sur index.html ou utilisez Live Server
+\`\`\`
+
+## 📞 Contact
+
+- 📱 Téléphone: +212 6 88 47 16 67
+- ✉️ Email: contact@luxe.com
+- 📍 Adresse: Al Hoceima, Morocco
+- 📷 Instagram / Facebook / YouTube
+
+## 👩‍💻 Auteur
+
+**Aya Hajjam**
+
+- GitHub: [@ayahajjam13-star](https://github.com/ayahajjam13-star)
+- Demo: [lux-salon-website-eu9q.vercel.app](https://lux-salon-website-eu9q.vercel.app)
+
+---
+
+⭐ N'hésitez pas à mettre une étoile si ce projet vous plaît !
