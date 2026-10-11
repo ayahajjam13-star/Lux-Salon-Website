@@ -2,7 +2,8 @@
 
 Salon de beauté de luxe à Al Hoceima, Maroc. Site web élégant avec design raffiné et expérience utilisateur premium.
 
-![Uploading image.jpeg…]()
+<img width="1168" height="2419" alt="image" src="https://github.com/user-attachments/assets/99f6e1e0-1dab-4064-84c6-7c5f16c91821" />
+
 
 
 ## 🔗 Demo Live
